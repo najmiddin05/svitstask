@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       child: BlocBuilder<AppBloc, AppState>(
         builder: (context, state) {
           return MaterialApp.router(
-            title: Strings.reqres,
+            title: Strings.svits,
             routerConfig: AppRoute.router,
             debugShowCheckedModeBanner: false,
             themeMode: state.themeMode,
