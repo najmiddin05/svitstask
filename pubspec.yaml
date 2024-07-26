@@ -40,9 +40,14 @@ dependencies:
   #json serialize:
   freezed_annotation: ^2.4.4
   freezed: ^2.5.2
+
+  #shimmer effect:
   shimmer: ^3.0.0
+
+  #cached network images:
   cached_network_image: ^3.3.1
-  animated_theme_switcher: ^2.0.10
+
+  #app launcher icons:
   flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
