@@ -1,0 +1,95 @@
+name: svitstask
+description: "Flutter project for SVITS company"
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #icon:
+  cupertino_icons: ^1.0.6
+
+  #state management:
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+
+  #dependency injection:
+  get_it: ^7.7.0
+
+  #network:
+  dio: ^5.5.0+1
+
+  #navigation:
+  go_router: ^14.2.1
+
+  #object equality:
+  equatable: ^2.0.5
+
+  #storage:
+  shared_preferences: ^2.2.3
+
+  #json serialize:
+  freezed_annotation: ^2.4.4
+  freezed: ^2.5.2
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  animated_theme_switcher: ^2.0.10
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.11
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+#  android: true
+  ios: true
+  image_path: "assets/images/svits_logo.png"
+  image_path_android: "assets/images/svits_logo.png"
+  image_path_ios: "assets/images/svits_logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/svits_logo.png"
+  adaptive_icon_monochrome: "assets/images/svits_logo.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/svits_logo.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "assets/images/svits_logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/svits_logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: jakarta
+      fonts:
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf
+          weight: 500
